@@ -1,5 +1,5 @@
 # 4004 Delay Loop Calculator
-I found it tedious to calculate the register values used in delay loops for my [Intel 4004 Single Board Computer](https://github.com/jim11662418/4004-SBC) so I wrote this simple Delphi 7 application to do the calculations. The application assumes that you're using a 4201 Clock Generator with a 5.185 MHz crystal to generate the clock signals for your 4004 or 4040. The crystal frequency can be changed to any value from 3500000 to 5185000 Hz in the lower left corner.
+I found it tedious to calculate the register values used in delay loops for my [Intel 4004 Single Board Computer](https://github.com/jim11662418/4004-SBC) so I wrote this simple Delphi 7 application to do the calculations. The application assumes that you're using an Intel 4201 Clock Generator IC with a 5.185 MHz crystal to generate the clock signals for your 4004 or 4040. The crystal frequency can be changed to any value from 3500000 to 5185000 Hz in the lower left corner.
 
 There are two ways to use the application. 
 1. You can experimentally manipulate the sliders for the R0-R3 registers until you come up with the delay value that you're looking for. 
